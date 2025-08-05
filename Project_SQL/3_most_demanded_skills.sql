@@ -17,4 +17,4 @@ GROUP BY
 ORDER BY
     job_count DESC
 LIMIT
-    10
+    25
