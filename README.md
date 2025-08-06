@@ -62,7 +62,7 @@ ORDER BY
 LIMIT 10;
 ```
 #### 🖼 Visualization:
-![Top 10 highest-paying remote data analyst roles with job titles and company names.](assets\output_1.png) *This horizontal bar chart shows a clear salary drop-off from the top role, followed by a cluster of high-paying positions between $180K and $330K; ChatGPT generated this graph for my SQL query reaults*
+![Top 10 highest-paying remote data analyst roles with job titles and company names.](assets/output_1.png) *This horizontal bar chart shows a clear salary drop-off from the top role, followed by a cluster of high-paying positions between $180K and $330K; ChatGPT generated this graph for my SQL query reaults*
 
 #### 📈 Key Insight:
 The highest-paying job was a **basic "Data Analyst" title at Mantys**, listed with an **astonishing $650,000/year**, far above industry norms. Following that were director-level roles at **Meta** and **AT&T**, showcasing how job titles can be deceiving when it comes to salary — some "analyst" roles out-earn "director" roles.
@@ -111,7 +111,7 @@ ORDER BY
     top_paying_job.salary_year_avg DESC;
 ```
 #### 🖼 Visualization:
-![Skills required across the top 10 highest-paying remote data analyst jobs.](assets\output_2.png)This horizontal bar chart shows the frequency of each skill mentioned in the top 10 job listings. Many of these roles required **multiple technical tools**, reflecting the hybrid demands of modern data analyst positions; ChatGPT generated this graph for my SQL query reaults*
+![Skills required across the top 10 highest-paying remote data analyst jobs.](assets/output_2.png)This horizontal bar chart shows the frequency of each skill mentioned in the top 10 job listings. Many of these roles required **multiple technical tools**, reflecting the hybrid demands of modern data analyst positions; ChatGPT generated this graph for my SQL query reaults*
 
 > #### 📈 Key Insight:
 The chart below reveals that **SQL**, **Python**, and **Excel** appear most frequently across high-paying roles — a reminder that foundational skills still dominate the top tier. Cloud tools like **AWS**, **Azure**, and **Databricks** also show up, highlighting the increasing demand for cloud-savvy analysts.
@@ -147,7 +147,7 @@ LIMIT
     25
 ```
 #### 🖼 Visualization:
-![Most frequently requested technical skills in remote data analyst job postings.](assets\output_3.png)The chart shows a long-tail distribution: a few skills (SQL, Excel, Python) are in extremely high demand, while the remaining skills — though still important — appear less frequently. This emphasizes the value of mastering foundational tools first before moving to niche platforms; ChatGPT generated this graph for my SQL query reaults.*
+![Most frequently requested technical skills in remote data analyst job postings.](assets/output_3.png)The chart shows a long-tail distribution: a few skills (SQL, Excel, Python) are in extremely high demand, while the remaining skills — though still important — appear less frequently. This emphasizes the value of mastering foundational tools first before moving to niche platforms; ChatGPT generated this graph for my SQL query reaults.*
 
 > #### 📈 Key Insight:
 The most in-demand skills are no surprise — **SQL** dominates by a wide margin with **7,291 job mentions**, followed by **Excel**, **Python**, and **Tableau**. These tools form the core skill set for nearly every analyst job.
@@ -184,7 +184,7 @@ LIMIT
     25
 ```
 #### 🖼 Visualization:
-![Skills linked to the highest average salaries among remote data analyst roles.](assets\output_4.png)This chart shows the average salary for each of the top-paying skills. While tools like **Pandas** and **Jupyter** also make the list, the highest averages are driven by cloud, engineering, and AI-related tools; ChatGPT generated this graph for my SQL query reaults.*
+![Skills linked to the highest average salaries among remote data analyst roles.](assets/output_4.png)This chart shows the average salary for each of the top-paying skills. While tools like **Pandas** and **Jupyter** also make the list, the highest averages are driven by cloud, engineering, and AI-related tools; ChatGPT generated this graph for my SQL query reaults.*
 
 > #### 📈 Key Insight:
 Skills like **PySpark**, **Bitbucket**, **Couchbase**, and **Watson** appear at the top of the list — these are not the most commonly listed tools, but when they do appear, they tend to be in **high-paying roles**. This suggests that **specialized or niche skills** often correlate with higher salaries.
@@ -227,7 +227,7 @@ LIMIT
     25
 ```
 #### 🖼 Visualization:
-![Top skills that offer both high average salaries and consistent job demand.](assets\output_5.png)This chart highlights the **intersection of pay and practicality**. Skills shown include their average salary and number of job mentions (in parentheses). Unlike previous queries, this analysis avoids rare skills with inflated salaries and instead focuses on sustainable, high-ROI tools; ChatGPT generated this graph for my SQL query reaults.*
+![Top skills that offer both high average salaries and consistent job demand.](assets/output_5.png)This chart highlights the **intersection of pay and practicality**. Skills shown include their average salary and number of job mentions (in parentheses). Unlike previous queries, this analysis avoids rare skills with inflated salaries and instead focuses on sustainable, high-ROI tools; ChatGPT generated this graph for my SQL query reaults.*
 
 > #### 📈 Key Insight:
 The most “optimal” skills — combining both pay and demand — include:
