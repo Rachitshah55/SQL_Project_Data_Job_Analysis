@@ -1,6 +1,5 @@
 
 SELECT
-    sjd.skill_id,
     sd.skills,
     COUNT(sjd.job_id) AS job_count,
     ROUND(AVG(jpf.salary_year_avg)) AS avg_skill_salary
@@ -17,7 +16,6 @@ WHERE
     AND (jpf.job_work_from_home = TRUE OR jpf.job_location = 'Anywhere')
     AND jpf.salary_year_avg IS NOT NULL
 GROUP BY
-    sjd.skill_id,
     sd.skills
 HAVING
     COUNT(sjd.job_id) > 10
