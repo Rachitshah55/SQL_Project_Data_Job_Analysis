@@ -31,7 +31,7 @@ This project answers five key questions:
 
 ## 📊 The Analysis
 
-### Each query for this project aimed at investigating specific aspect of the data analyst job market.
+### Each query for this project aimed at investigating specific aspects of the data analyst job market.
 
 ---
 
@@ -114,9 +114,9 @@ ORDER BY
 ![Skills required across the top 10 highest-paying remote data analyst jobs.](assets/output_2.png)This horizontal bar chart shows the frequency of each skill mentioned in the top 10 job listings. Many of these roles required **multiple technical tools**, reflecting the hybrid demands of modern data analyst positions; ChatGPT generated this graph for my SQL query reaults*
 
 > #### 📈 Key Insight:
-The chart below reveals that **SQL**, **Python**, and **Excel** appear most frequently across high-paying roles — a reminder that foundational skills still dominate the top tier. Cloud tools like **AWS**, **Azure**, and **Databricks** also show up, highlighting the increasing demand for cloud-savvy analysts.
+The chart below reveals that **SQL**, **Python**, and **Tableau** appear most frequently across high-paying roles — a reminder that foundational skills still dominate the top tier. Cloud tools like **AWS**, **Azure**, and **Databricks** also show up, highlighting the increasing demand for cloud-savvy analysts.
 
-If you're aiming for top-paying jobs, mastering SQL + Python + Excel should be a priority, followed by gaining familiarity with cloud tools and data engineering frameworks like Databricks and Spark.
+If you're aiming for top-paying jobs, mastering SQL + Python + Tableau should be a priority, followed by gaining familiarity with cloud tools and data engineering frameworks like Databricks and Spark.
 
 ---
 
@@ -187,9 +187,9 @@ LIMIT
 ![Skills linked to the highest average salaries among remote data analyst roles.](assets/output_4.png)This chart shows the average salary for each of the top-paying skills. While tools like **Pandas** and **Jupyter** also make the list, the highest averages are driven by cloud, engineering, and AI-related tools; ChatGPT generated this graph for my SQL query reaults.*
 
 > #### 📈 Key Insight:
-Skills like **PySpark**, **Bitbucket**, **Couchbase**, and **Watson** appear at the top of the list — these are not the most commonly listed tools, but when they do appear, they tend to be in **high-paying roles**. This suggests that **specialized or niche skills** often correlate with higher salaries.
+Skills like **PySpark**, **Bitbucket**, **Couchbase**, and **Watson** appear at the top of the list — these are not the most commonly listed tools, but when they do appear, they tend to be in **high-paying roles**. 
 
-This query is not about how frequent a skill is — it’s about how valuable it is. If you’re aiming to maximize income, learning tools like PySpark, Databricks, or even Bitbucket (for workflow) may give you an edge — even if they’re not as widespread.
+This suggests that **specialized or niche skills** often correlate with higher salaries - even if they’re not as widespread.
 
 ---
 
@@ -227,7 +227,7 @@ LIMIT
     25
 ```
 #### 🖼 Visualization:
-![Top skills that offer both high average salaries and consistent job demand.](assets/output_5.png)This chart highlights the **intersection of pay and practicality**. Skills shown include their average salary and number of job mentions (in parentheses). Unlike previous queries, this analysis avoids rare skills with inflated salaries and instead focuses on sustainable, high-ROI tools; ChatGPT generated this graph for my SQL query reaults.*
+![Top skills that offer both high average salaries and consistent job demand.](assets/output_5.jpg)This chart highlights the **intersection of pay and practicality**. Skills shown include their average salary and number of job mentions (in parentheses). Unlike previous queries, this analysis avoids rare skills with inflated salaries and instead focuses on sustainable, high-ROI tools; this graph was generated on draxlr from my SQL query reaults and edited on ACR.*
 
 > #### 📈 Key Insight:
 The most “optimal” skills — combining both pay and demand — include:
