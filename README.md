@@ -6,6 +6,16 @@ This project explores the remote job market for data analysts in 2023. The goal 
 
 Check out SQL queries here: [Project_SQL folder](/Project_SQL/)
 
+---
+
+## 📊 Live Dashboard (Tableau Public)
+
+**Primary way to view the results:**
+
+[**Tableau Dashboard — Remote Data Analyst Job Market (2023)**](https://public.tableau.com/views/RemoteDAMarketMap/RemoteDAMarketMap?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)   
+
+---
+
 ## 🏗️ Background
 With the rapid growth of remote work and the evolving expectations in the tech hiring space, data analysts now face an increasingly global and competitive job market. Employers are not only offering higher salaries for top talent but are also demanding a specific mix of technical skills.
 
@@ -23,7 +33,7 @@ This project answers five key questions:
 4. Which skills are linked to the highest average salaries?
 5. Which skills offer the best combination of demand and pay?
 
-## 🛠 Tools I Used
+## 🛠 Technical Stack
 - **SQL (PostgreSQL)** — for querying and analysis
 - **Visual Studio Code** — for writing and managing scripts
 - **Git & GitHub** — for version control and publishing
@@ -62,7 +72,7 @@ ORDER BY
 LIMIT 10;
 ```
 #### 🖼 Visualization:
-![Top 10 highest-paying remote data analyst roles with job titles and company names.](assets/output_1.png) *This horizontal bar chart shows a clear salary drop-off from the top role, followed by a cluster of high-paying positions between $180K and $330K; ChatGPT generated this graph for my SQL query reaults*
+![Top 10 highest-paying remote data analyst roles with job titles and company names.](assets/output_1.png) *This horizontal bar chart shows a clear salary drop-off from the top role, followed by a cluster of high-paying positions between $180K and $330K; ChatGPT generated this graph for my SQL query results*
 
 #### 📈 Key Insight:
 The highest-paying job was a **basic "Data Analyst" title at Mantys**, listed with an **astonishing $650,000/year**, far above industry norms. Following that were director-level roles at **Meta** and **AT&T**, showcasing how job titles can be deceiving when it comes to salary — some "analyst" roles out-earn "director" roles.
