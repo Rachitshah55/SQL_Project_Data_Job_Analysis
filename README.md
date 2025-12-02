@@ -34,7 +34,7 @@ This project answers five key questions:
 5. Which skills offer the best combination of demand and pay?
 
 ## 🛠 Technical Stack
-- **SQL (PostgreSQL)** — for querying and analysis
+- **SQL (MySQL)** — for querying and analysis
 - **Visual Studio Code** — for writing and managing scripts
 - **Git & GitHub** — for version control and publishing
 - **ChatGPT** — Graph generation and report editing.
